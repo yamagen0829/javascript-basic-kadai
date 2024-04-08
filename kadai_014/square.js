@@ -7,9 +7,16 @@ const addnum = (num) => {
 addnum(10);
 
 // 検索でヒットした記述
-const square = (num) => {
-    const result = num ** 2;
-    console.log(result);
-}
+// const square = (num) => {
+    // const result = num ** 2;
+    // console.log(result);
+// }
 //100が出力される  
-  square(10);    
+  // square(10);    
+
+const square = (num) => {
+  return num ** 2;
+}
+
+const result = square(10);
+console.log(result);
